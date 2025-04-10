@@ -1,10 +1,10 @@
-# Agent2Agent (A2A) Go
+# A2A Go
 
-<strong>A Go implementation of the Agent2Agent (A2A) protocol, enabling seamless communication between different agent frameworks.</strong>
+<strong>A Go implementation of the [Agent2Agent (A2A) protocol](https://github.com/google/A2A#agent2agent-protocol-a2a), enabling seamless communication between different agent frameworks.</strong>
 
 
 > [!CAUTION]
-> This is an early development build, do not use in production
+> This is an early development effort, do not use in production
 
 
 ## Installation
@@ -29,8 +29,7 @@ INFO:     Uvicorn running on http://localhost:10002 (Press CTRL+C to quit)
 then we'll connect to it with a2a-go:
 
 ```
-go run cmd/main.go -agent=http://localhost:10002
-
+go run cmd/cli/main.go -agent=http://localhost:10002
 ======= Agent Card ========
 {
   "name": "Reimbursement Agent",
@@ -69,4 +68,6 @@ go run cmd/main.go -agent=http://localhost:10002
 What do you want to send to the agent? (:q or quit to exit)
 ```
 
-## more to come!
+## Documentation
+
+coming soon
