@@ -4,7 +4,7 @@
 
 
 > [!CAUTION]
-> This is an early development build, do not use in production
+> This is an early development effort, do not use in production
 
 
 ## Installation
