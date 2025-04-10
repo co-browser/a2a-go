@@ -1,6 +1,6 @@
 # Agent2Agent (A2A) Go
 
-<strong>A Go implementation of the Agent2Agent (A2A) protocol, enabling seamless communication between different agent frameworks.</strong>
+<strong>A Go implementation of the [Agent2Agent (A2A) protocol](https://github.com/google/A2A#agent2agent-protocol-a2a), enabling seamless communication between different agent frameworks.</strong>
 
 
 > [!CAUTION]
