@@ -29,8 +29,7 @@ INFO:     Uvicorn running on http://localhost:10002 (Press CTRL+C to quit)
 then we'll connect to it with a2a-go:
 
 ```
-go run cmd/main.go -agent=http://localhost:10002
-
+go run cmd/cli/main.go -agent=http://localhost:10002
 ======= Agent Card ========
 {
   "name": "Reimbursement Agent",
