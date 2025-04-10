@@ -4,7 +4,7 @@
 
 
 > [!CAUTION]
-> This is an early development build, do not use in production
+> This is an early development effort, do not use in production
 
 
 ## Installation
@@ -68,4 +68,6 @@ go run cmd/cli/main.go -agent=http://localhost:10002
 What do you want to send to the agent? (:q or quit to exit)
 ```
 
-## more to come!
+## Documentation
+
+coming soon
