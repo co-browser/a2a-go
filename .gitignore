@@ -1,0 +1,26 @@
+_gitignore/
+*.log
+
+# artifacts from pprof tooling
+*.prof
+*.test
+
+# build artifacts and helpers
+cmd/cli/cli
+cmd/cli/cli.exe
+cmd/cli/.env
+
+# mac specific
+.DS_Store
+
+# go modules
+vendor
+
+# goreleaser artifacts
+dist
+a2a-build
+a2a-dist
+
+# IDE files
+.idea/
+.vscode/
